@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&family=Quicksand:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand';
+    background-image: linear-gradient(135deg, #21254e, #2b4a83);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    height: 150px;
+    width: 250px;
+    background-image: linear-gradient(135deg, #00af6c, #01cc7e);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    text-align: center;
+    color: #303030;
+    font-size: 0.9rem;
+    padding: 10px;
+}
+
+.input {
+    margin: 20px 20px;
+}
+
+#input {
+    width: 210px;
+    overflow-x: scroll;
+    font-family: 'Quicksand';
+    background-color: rgb(255, 255, 255, 0);
+    color: #fff;
+    font-size: 1.5rem;
+    animation-duration: 0.5s;
+    animation-name: create;
+}
+#input::-webkit-scrollbar {
+  width: 0;
+}
+
+@keyframes create {
+    from {
+        opacity: 50%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+.result {
+    margin-top: 5px;
+    width: 150px;
+    color: #e7e7e7;
+    font-size: 0.9rem;
+}
+
+.buttons {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #fff;
+    font-family: 'fira code';
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eeeeee;
+}
+
+.red {
+    color: #ff4520;
+    font-size: 1.2rem;
+}
+
+.green {
+    font-size: 1.1rem;
+    color: #00e48c;
+}
+
+.equal {
+    background-image: linear-gradient(135deg, #00ce7f, #00ff9d);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.equal:hover {
+    background: #00e4d1;
+}
