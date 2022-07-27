@@ -1,65 +1,65 @@
-<html lang="en">
+<html lang='en'>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>codenium.ir</title>
-    <link rel="icon" href="https://codenium.ir/favicon.png">
+    <link rel='icon' href='https://codenium.ir/favicon.png'>
     <link rel='stylesheet' href='./style.css'>
 </head>
 
 <body>
-    <div class="caculator">
-        <div class="display">
-            <div class="title">calculator</div>
-            <div class="input">
-                <div id="input" type="number"></div>
-                <div class="result"></div>
+    <div class='caculator'>
+        <div class='display'>
+            <div class='title'>calculator</div>
+            <div class='input'>
+                <div id='input' type='number'></div>
+                <div class='result'></div>
             </div>
         </div>
-        <div class="buttons">
-            <div class="row">
-                <button onclick="empty()" class="red">C</button>
-                <button onclick="negative()" class="green">-/+</button>
-                <button onclick="addToInput(this.innerHTML)" class="green">/</button>
-                <button onclick="addToInput(this.innerHTML)" class="green">*</button>
+        <div class='buttons'>
+            <div class='row'>
+                <button onclick='emptyALL()' class='red'>C</button>
+                <button onclick='negative()' class='green'>-/+</button>
+                <button onclick='addToInput(this.innerHTML)' class='green'>/</button>
+                <button onclick='addToInput(this.innerHTML)' class='green'>*</button>
             </div>
-            <div class="row">
-                <button onclick="addToInput(this.innerHTML)">1</button>
-                <button onclick="addToInput(this.innerHTML)">2</button>
-                <button onclick="addToInput(this.innerHTML)">3</button>
-                <button onclick="addToInput(this.innerHTML)" class="green">+</button>
+            <div class='row'>
+                <button onclick='addToInput(this.innerHTML)'>1</button>
+                <button onclick='addToInput(this.innerHTML)'>2</button>
+                <button onclick='addToInput(this.innerHTML)'>3</button>
+                <button onclick='addToInput(this.innerHTML)' class='green'>+</button>
             </div>
-            <div class="row">
-                <button onclick="addToInput(this.innerHTML)">4</button>
-                <button onclick="addToInput(this.innerHTML)">5</button>
-                <button onclick="addToInput(this.innerHTML)">6</button>
-                <button onclick="addToInput(this.innerHTML)" class="green">-</button>
+            <div class='row'>
+                <button onclick='addToInput(this.innerHTML)'>4</button>
+                <button onclick='addToInput(this.innerHTML)'>5</button>
+                <button onclick='addToInput(this.innerHTML)'>6</button>
+                <button onclick='addToInput(this.innerHTML)' class='green'>-</button>
             </div>
-            <div class="row">
-                <button onclick="addToInput(this.innerHTML)">7</button>
-                <button onclick="addToInput(this.innerHTML)">8</button>
-                <button onclick="addToInput(this.innerHTML)">9</button>
-                <button onclick="backspace()" class="green">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-backspace" width="30"
-                        height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00e48c" fill="none"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M20 6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-11l-5 -5a1.5 1.5 0 0 1 0 -2l5 -5z" />
-                        <path d="M12 10l4 4m0 -4l-4 4" />
+            <div class='row'>
+                <button onclick='addToInput(this.innerHTML)'>7</button>
+                <button onclick='addToInput(this.innerHTML)'>8</button>
+                <button onclick='addToInput(this.innerHTML)'>9</button>
+                <button onclick='backspace()' class='green'>
+                    <svg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-backspace' width='30'
+                        height='30' viewBox='0 0 24 24' stroke-width='1.5' stroke='#00e48c' fill='none'
+                        stroke-linecap='round' stroke-linejoin='round'>
+                        <path stroke='none' d='M0 0h24v24H0z' fill='none' />
+                        <path d='M20 6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-11l-5 -5a1.5 1.5 0 0 1 0 -2l5 -5z' />
+                        <path d='M12 10l4 4m0 -4l-4 4' />
                     </svg>
                 </button>
             </div>
-            <div class="row">
-                <button onclick="addToInput(this.innerHTML)">.</button>
-                <button onclick="addToInput(this.innerHTML)">0</button>
-                <button onclick="addToInput(this.innerHTML)">000</button>
-                <button onclick="equal()" class="equal"> = </button>
+            <div class='row'>
+                <button onclick='addToInput(this.innerHTML)'>.</button>
+                <button onclick='addToInput(this.innerHTML)'>0</button>
+                <button onclick='addToInput(this.innerHTML)'>000</button>
+                <button onclick='equal()' class='equal'> = </button>
             </div>
         </div>
     </div>
-    <script src="./app.js"></script>
+    <script src='./app.js'></script>
 </body>
 
 </html>
