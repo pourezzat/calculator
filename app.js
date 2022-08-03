@@ -7,6 +7,7 @@ function addToInput(value) {
     if (!isNaN(value)) result.innerHTML = eval(input.innerHTML)
 }
 function equal() {
+    if (input.innerHTML === '') return
     input.innerHTML = eval(input.innerHTML)
 }
 function emptyALL() {
